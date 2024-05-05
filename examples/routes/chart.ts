@@ -14,7 +14,7 @@ export const handler: Handlers = {
         labels: months(cfg),
         datasets: [
           {
-            label: "Dataset 1",
+            label: "rail data",
             data: numbers(cfg),
             borderColor: ChartColors.Red,
             backgroundColor: transparentize(ChartColors.Red),
